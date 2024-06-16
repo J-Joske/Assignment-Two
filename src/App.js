@@ -1,4 +1,4 @@
-import React from `react`;
+import React from 'react';
 import './Styles/App.css';
 import Navigation from "./Components/Navigation/Navigation";
 import Header from "./Components/Header/Header";

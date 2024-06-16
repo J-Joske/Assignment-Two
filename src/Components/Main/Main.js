@@ -1,4 +1,4 @@
-import React from `react`;
+import React from "react";
 import AboutUs from "./AboutUs";
 import BehindTheScenes from "./BehindTheScenes";
 import GameStats from "./GameStats";
