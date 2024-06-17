@@ -1,11 +1,15 @@
 import React from "react";
+import HomeOfRichmond from "../Images/home_of_richmond.png";
+
+console.log(HomeOfRichmond);
+
 
 export default function Navigation() {
     return(
         // Navigation bar split into three divs for ease of styling
         <div className="Navigation">
             <div className="navigationImage">
-                <img src="" alt="A Richmond shield logo"></img>
+                <img src={HomeOfRichmond} alt="A Richmond shield logo"></img>
             </div>
 
             <div className="navigationList">
