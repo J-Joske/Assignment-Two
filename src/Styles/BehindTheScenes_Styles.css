@@ -1,0 +1,13 @@
+.behindTheScenesContent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:1rem;
+    align-items: center;
+    margin: 1rem;
+}
+
+.behindTheScenesText {
+    width:540px;
+
+}
