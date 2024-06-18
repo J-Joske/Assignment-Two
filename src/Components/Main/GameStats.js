@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../Styles/GameStats_Styles.css';
 
 const GameStatsData = [
 {date:"Sunday, 5th May 2024", teams:"Richmond V Fremantle", score:"49 - 103", winlosedraw:"Lose"},
@@ -11,7 +12,7 @@ const GameStatsData = [
 
 function GameStats () {
     return (
-        <div>
+        <div className="gameStats">
             <h2>GAME STATS</h2>
         <div className="GameStatsTable">
             <table>

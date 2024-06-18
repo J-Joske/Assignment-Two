@@ -1,0 +1,12 @@
+.Membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.richmondFans {
+    height: 400px;
+    width: 500px;
+    margin: 15px;
+}

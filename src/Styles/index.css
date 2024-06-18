@@ -23,8 +23,55 @@ h3 {
   text-align: center;
 }
 
+a {
+  color:#FDD206;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+a:visited {
+  color:gray;
+}
+
+
+a:hover {
+  color:white;
+}
+
+ul {
+  list-style: none;
+}
+
 
 form {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+
+/* table styles */
+table {
+  width:100%;
+  border-collapse: collapse;
+  background-color: rgba(128, 128, 128, 0.1);
+  color: black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th {
+  color:#FDD206;
+  background-color: grey;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+/* Change color of row when hovering over it */
+tr:hover { 
+  background-color: black;
+  color:#FDD206;
+  transition: all 0.3s ease 0s;
 }

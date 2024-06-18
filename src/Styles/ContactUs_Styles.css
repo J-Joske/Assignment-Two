@@ -1,0 +1,13 @@
+.ContactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ContactUsPicture {
+    height:400px;
+    width: 500px;
+    margin: 15px;
+}
