@@ -1,0 +1,39 @@
+.form {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttonField {
+    width: 200px;
+}
+
+.overallModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.modalButton {
+    display: flex;
+    justify-content: center;
+    width:140px;
+
+}
+
+.closeModalButton {
+    display: flex;
+    justify-content: center;
+    width:140px;
+    background-color: black;
+    color: #FDD206;
+}
+
+.submitHeading {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    margin: none;
+}

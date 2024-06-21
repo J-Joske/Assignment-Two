@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import HomeOfRichmond from "../Images/home_of_richmond.png";
 import "../../Styles/Navigation_Styles.css";
 import {NavigationItems} from '../Footer/Footer.js';
+import DropDown from './DropDownMenu.js';
 
 console.log(HomeOfRichmond);
 
@@ -63,6 +64,7 @@ console.log(HomeOfRichmond);
             </div>
 
             <div className="searchBar"> 
+            <DropDown />
 
             </div>
 
