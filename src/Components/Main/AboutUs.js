@@ -6,7 +6,9 @@ import TeamCelebrate from '../Images/celebrate.avif';
 
 const AboutUs = () => {
     return (
+        <section id='AboutUsSection'>
         <div className="AboutUs">
+            
 
             <h2>ABOUT US</h2>
 
@@ -30,8 +32,10 @@ const AboutUs = () => {
                 <p className="aboutUsContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec orci nulla. In a mollis nunc. Fusce nec eros lobortis, dapibus ligula vel, dapibus ex. Curabitur diam mi, faucibus eget urna eu, feugiat tincidunt erat. Aliquam eu sodales purus, ac feugiat nisl. Quisque auctor consectetur tempor. Sed facilisis mi nisl. Sed tempus volutpat lacinia. Suspendisse egesta</p>
 
             </div>
-
+            
         </div>
+        </section>
+    
     );
 };
 

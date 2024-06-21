@@ -1,6 +1,7 @@
 import React from "react";
 import HomeOfRichmond from "../Images/home_of_richmond.png";
 import "../../Styles/Navigation_Styles.css";
+import {NavigationItems} from '../Footer/Footer.js';
 
 console.log(HomeOfRichmond);
 
@@ -12,29 +13,15 @@ export default function Navigation() {
             
                 <img className="navigationImage" src={HomeOfRichmond} alt="A Richmond shield logo"></img>
 
-            <div className="navigationList">
+
+                {/* map the menu array into a list from the footer*/}
+                <div className="navigationList"> 
                 <ul>
-                    <li>
-                        <a href="/AboutUs">About Us</a>
-                        </li>
-                    <li>
-                        <a href="/BehindTheScenes">Behind The Scenes</a>
-                        </li>
-                    <li>
-                        <a href="/GameStats">Game Stats</a>
-                        </li>
-                    <li>
-                        <a href="/PlayerProfiles">Player Profiles</a>
-                        </li>
-                    <li>
-                        <a href="/Socials">Socials</a>
-                        </li>
-                    <li>
-                        <a href="/Membership">Membership</a>
-                        </li>
-                    <li>
-                        <a href="/ContactUs">Contact Us</a>
-                        </li>
+                    {NavigationItems.map((menuItem, index) => (
+                        <li key={index}>
+                            <a href={menuItem.link}>{menuItem.menuItem}</a>
+                            </li>
+                    ))}
                 </ul>
             </div>
 

@@ -29,6 +29,7 @@ const Carousel = () => {
     // display heading and use map funtion to create ul for the images from the array to make up the carousel
     return (
         <div className="PlayerProfiles">
+            <section id="PlayerProfilesSection">
              <h2>PLAYER PROFILES</h2>
       <div className="carouselContainer">
         <button onClick={goToPrev}>Prev</button>
@@ -45,6 +46,7 @@ const Carousel = () => {
         </div>
         <button onClick={goToNext}>Next</button>
       </div>
+      </section>
       </div>
     );
   };

@@ -13,6 +13,7 @@ const GameStatsData = [
 function GameStats () {
     return (
         <div className="gameStats">
+            <section id="GateStatsSection">
             <h2>GAME STATS</h2>
         <div className="GameStatsTable">
             <table>
@@ -39,6 +40,7 @@ function GameStats () {
                 </tbody>
             </table>
         </div>
+        </section>
         </div>
     );
 }

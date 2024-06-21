@@ -24,6 +24,8 @@
     width: 300px;
 }
 
+/* sponsor images */
+
 .footerLogo {
     width: 200px;
     height: 100px;
@@ -56,7 +58,7 @@
     padding:0.9375rem 1.875rem;
     background-color: black;
 }
-
+/* Style legal footer and make copyright push to the right of the scrren */
 .legalList {
     width: 100%;
     display: flex;

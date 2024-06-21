@@ -10,12 +10,12 @@ import '../../Styles/Footer_Styles.css';
 
 // array for the navigation menu list
 const NavigationItems = [
-    {menuItem: 'About Us', link: '/AboutUs'},
-    {menuItem: 'Behind The Scenes', link: '/BehindTheScenes'},
-    {menuItem: 'Game Stats', link: '/GameStats'},
-    {menuItem: 'Player Profiles', link: '/PlayerProfiles'},
-    {menuItem: 'Membership', link: '/Membership'},
-    {menuItem: 'Contact Us', link: '/ContactUs'},
+    {menuItem: 'About Us', link: '#AboutUsSection'},
+    {menuItem: 'Behind The Scenes', link: '#BehindTheScenesSection'},
+    {menuItem: 'Game Stats', link: '#GameStatsSection'},
+    {menuItem: 'Player Profiles', link: '#PlayerProfilesSection'},
+    {menuItem: 'Membership', link: '#MembershipSection'},
+    {menuItem: 'Contact Us', link: '#ContactUsSection'},
 ]
 // array for the social media icons
 const SocialIcons = [
@@ -46,8 +46,11 @@ export default function Footer() {
                 </ul>
             </div>
             </div>
+
             <div className="ftMainItem">
+
                 <h4>Acknowledgement of Country</h4>
+
             <p className="acknowledgement">We extend our deepest respect to First Peoples and Traditional Owners of the land, air and waterways where we live and work.</p>
             </div>
             
@@ -62,6 +65,7 @@ export default function Footer() {
             </ul>
             </div>
             </div>
+
             {/* map the icon array to a list */}
             <div className="ftSocials">
 
@@ -75,7 +79,8 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-
+            
+            {/* legal information */}
             <div className="ftLegal">
 
                 <ul className="legalList">
@@ -88,3 +93,4 @@ export default function Footer() {
         </div>
     );
 }
+export {NavigationItems};

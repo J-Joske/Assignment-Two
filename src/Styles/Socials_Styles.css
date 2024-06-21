@@ -1,5 +1,19 @@
 
+.socialsContent {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
 /* constrain text to match formatting */
 .socialsArticle {
     width:540px;
+    margin: 10px;
+}
+
+.twitterTimeline {
+    width: 600px;
+    margin:10px;
+
 }
