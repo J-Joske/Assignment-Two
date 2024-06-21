@@ -1,0 +1,73 @@
+.Footer {
+    width:100%;
+    background-color: #FDD206;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ftMain {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+
+
+.ftMainItem {
+    padding: 1.25rem;
+    min-width: 15.5rem;
+}
+
+.acknowledgement {
+    width: 300px;
+}
+
+.footerLogo {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+.ftSocials {
+    padding: 0 1.875rem 1.25rem;
+}
+
+.socialIconsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+}
+
+.socialIcons li {
+    margin: 0.5rem;
+}
+
+/* change size of social media icons */
+.iconImage {
+    height: 100px;
+    width: 150px;
+}
+
+.ftLegal {
+    padding:0.9375rem 1.875rem;
+    background-color: black;
+}
+
+.legalList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.legalList li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+.legalList li:nth-last-child(2) {
+    flex: 1;
+}

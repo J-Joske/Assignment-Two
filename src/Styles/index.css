@@ -49,6 +49,24 @@ form {
 
 }
 
+button {
+  background-color: #FDD206;
+  color: black;
+  padding: 8px 32px;
+  border: none;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 1em;
+  }
+  
+  button:hover {
+    background-color: grey;
+    color: white;
+    transition: all 0.3s ease 0s;
+  }
+  
 /* table styles */
 table {
   width:100%;
@@ -75,3 +93,4 @@ tr:hover {
   color:#FDD206;
   transition: all 0.3s ease 0s;
 }
+
