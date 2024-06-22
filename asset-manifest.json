@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/github-pages-app/static/css/main.8311b266.css",
+    "main.js": "/github-pages-app/static/js/main.0fab72c8.js",
+    "static/js/453.ed3810f9.chunk.js": "/github-pages-app/static/js/453.ed3810f9.chunk.js",
+    "static/media/player-three.png": "/github-pages-app/static/media/player-three.7d917432f29912828230.png",
+    "static/media/vfl-team.png": "/github-pages-app/static/media/vfl-team.f31fe53278cd5926293d.png",
+    "static/media/player-four.png": "/github-pages-app/static/media/player-four.42fa46bb18834b58e98d.png",
+    "static/media/player-one.png": "/github-pages-app/static/media/player-one.2efba81a1f9f7833099e.png",
+    "static/media/player-two.png": "/github-pages-app/static/media/player-two.0703a18a663a4933ab54.png",
+    "static/media/contact-us-image.webp": "/github-pages-app/static/media/contact-us-image.9316de4d50105ba76f98.webp",
+    "static/media/richmon-fans.avif": "/github-pages-app/static/media/richmon-fans.1e87efd6112251830504.avif",
+    "static/media/celebrate.avif": "/github-pages-app/static/media/celebrate.fc30393298006c76d419.avif",
+    "static/media/richmond-header.png": "/github-pages-app/static/media/richmond-header.f653a8796fd103e558e1.png",
+    "static/media/win-image.avif": "/github-pages-app/static/media/win-image.dbf67a3d9b05bbf4ec5e.avif",
+    "static/media/logo-Richmond-Tigers.png": "/github-pages-app/static/media/logo-Richmond-Tigers.abcddf1580679a1b6853.png",
+    "static/media/afl-logo.png": "/github-pages-app/static/media/afl-logo.ef6fc46d6475d8b3a570.png",
+    "static/media/home_of_richmond.png": "/github-pages-app/static/media/home_of_richmond.e37547224e8670f806e3.png",
+    "static/media/swinburne-logo.png": "/github-pages-app/static/media/swinburne-logo.8916c1bbe30995eca1e0.png",
+    "index.html": "/github-pages-app/index.html",
+    "main.8311b266.css.map": "/github-pages-app/static/css/main.8311b266.css.map",
+    "main.0fab72c8.js.map": "/github-pages-app/static/js/main.0fab72c8.js.map",
+    "453.ed3810f9.chunk.js.map": "/github-pages-app/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8311b266.css",
+    "static/js/main.0fab72c8.js"
+  ]
+}
