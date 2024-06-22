@@ -1,6 +1,7 @@
 
 .socialsContent {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
 }
@@ -13,7 +14,7 @@
 }
 
 .twitterTimeline {
-    width: 600px;
+    width: 550px;
     margin:10px;
 
 }

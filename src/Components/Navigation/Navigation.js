@@ -43,6 +43,7 @@ console.log(HomeOfRichmond);
         top: `${top}px`,
         width: '100%',
         display: 'flex',
+        flexWrap: 'wrap',
         justifyContent: 'space-between',
         alignItems: 'center',
         transition: 'top 0.3s',
