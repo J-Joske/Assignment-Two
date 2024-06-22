@@ -1,12 +1,13 @@
 .dropDownBtn {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width:fit-content;
+    width:120px;
     padding: 0.5rem;
     background-color: #FDD206;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 0.5rem;
-    /* box-shadow: rgba(149, 157, 165, 02) 0px 8px 24px;*/
+    box-shadow: rgba(149, 157, 165, 02) 0px 2px 10px;
     cursor: pointer;
     margin-right: 3rem;
 }

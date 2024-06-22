@@ -1,6 +1,7 @@
 
 .navigationImage {
     margin-left: 20px;
+    margin-bottom: 10px;
     width:100px;
     height:40px;
 }
@@ -8,4 +9,12 @@
 .navigationList li {
     display: inline-block;
     padding: 0px 15px;
+}
+
+.searchBarContainer {
+
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

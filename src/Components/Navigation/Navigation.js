@@ -5,6 +5,8 @@ import "../../Styles/Navigation_Styles.css";
 import {NavigationItems} from '../Footer/Footer.js';
 import DropDown from './DropDown/DropDownMain/DropDown.js';
 import DropDownItems from './DropDownItems/DropDownItems.js';
+import {SearchBar} from './SearchBar/SearchBar.js';
+import {SearchResultsList} from "./SearchBar/SearchResultsList.js";
 
 console.log(HomeOfRichmond);
 
@@ -46,6 +48,10 @@ console.log(HomeOfRichmond);
         transition: 'top 0.3s',
       };
     
+
+
+      const [results, setResults] = useState ([]);
+
     return(
         // Navigation bar split into three divs for ease of styling
         <div id="navbar" style={navbarStyle}>
@@ -53,7 +59,11 @@ console.log(HomeOfRichmond);
                 <img className="navigationImage" src={HomeOfRichmond} alt="A Richmond shield logo"></img>
 
 
-                {/* map the menu array into a list from the footer*/}
+                <div className="searchBarContainer">
+                  <SearchBar setResults={setResults} />
+                  <SearchResultsList results={results}/>
+                  
+                  </div>
 
 
             <div className="dropDownMenu"> 
