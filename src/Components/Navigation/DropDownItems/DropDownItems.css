@@ -1,0 +1,13 @@
+.dropdownItem {
+    padding: 0.5rem;
+    margin: 0.1rem;
+    width:100%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.dropdownItem:hover {
+    background-color: #FDD206;
+    color: black;
+
+}

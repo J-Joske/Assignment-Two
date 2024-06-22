@@ -1,0 +1,23 @@
+.dropDownBtn {
+    display: flex;
+    align-items: center;
+    width:fit-content;
+    padding: 0.5rem;
+    background-color: #FDD206;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0.5rem;
+    /* box-shadow: rgba(149, 157, 165, 02) 0px 8px 24px;*/
+    cursor: pointer;
+    margin-right: 3rem;
+}
+
+.toggleIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.buttonOpen {
+border-color: #FDD206 2px solid;
+}

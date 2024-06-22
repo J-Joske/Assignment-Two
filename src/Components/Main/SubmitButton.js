@@ -53,7 +53,7 @@ const SubmitButton = () => {
           <br />
           <button className="modalButton" type="submit">Submit</button>
         </form>
-        <button className="closeModalButton" onClick={closeModal}>Close Modal</button>
+        <button className="closeModalButton" onClick={closeModal}>Close</button>
         </div>
       </Modal>
     </div>

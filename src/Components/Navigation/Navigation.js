@@ -3,7 +3,8 @@ import React, { useState, useEffect } from 'react';
 import HomeOfRichmond from "../Images/home_of_richmond.png";
 import "../../Styles/Navigation_Styles.css";
 import {NavigationItems} from '../Footer/Footer.js';
-import DropDown from './DropDownMenu.js';
+import DropDown from './DropDown/DropDownMain/DropDown.js';
+import DropDownItems from './DropDownItems/DropDownItems.js';
 
 console.log(HomeOfRichmond);
 
@@ -53,23 +54,29 @@ console.log(HomeOfRichmond);
 
 
                 {/* map the menu array into a list from the footer*/}
-                <div className="navigationList"> 
-                <ul>
-                    {NavigationItems.map((menuItem, index) => (
-                        <li key={index}>
-                            <a href={menuItem.link}>{menuItem.menuItem}</a>
-                            </li>
-                    ))}
-                </ul>
-            </div>
 
-            <div className="searchBar"> 
-            <DropDown />
+
+            <div className="dropDownMenu"> 
+            <DropDown 
+            buttonText="Menu"
+            content={
+                <> 
+                {
+
+                    NavigationItems.map((menuItem) => (
+                        <DropDownItems key={menuItem.menuItem}>
+                            <a href={menuItem.link}>{` ${menuItem.menuItem}`}</a>
+                        </DropDownItems>
+    ))}
+            
+            </>
+            }
+            />
 
             </div>
 
                 </div> 
         
     );
-} 
+};
 export default ScrollNavbar;
